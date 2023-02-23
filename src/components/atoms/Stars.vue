@@ -17,8 +17,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    .fa-star {
-        padding: 0 4px;
+.fa-star {
+    padding: 0 4px;
+
     &.checked {
         color: #F57F31
     }

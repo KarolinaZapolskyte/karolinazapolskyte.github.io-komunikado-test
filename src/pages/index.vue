@@ -33,6 +33,7 @@ export default {
 
 body {
   margin: 0;
+  overflow-y: hidden
 }
 
 #app {
@@ -40,9 +41,9 @@ body {
   margin: 80px auto;
   font-family: 'Roboto', sans-serif;
 
-@media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     margin: 40px 0
-}
+  }
 }
 </style>
   

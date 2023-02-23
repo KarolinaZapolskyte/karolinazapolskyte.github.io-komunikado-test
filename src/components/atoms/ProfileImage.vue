@@ -16,7 +16,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 .profile-img {
     min-width: 72px;
     width: 72px;
@@ -27,4 +26,5 @@ export default {
     position: absolute;
     top: -20px;
     left: 32px;
-}</style>
+}
+</style>

@@ -63,6 +63,7 @@ export default {
                 ]
             });
         });
+        // add functionality to left & right arrows
         $('#prev-btn').click(function () {
             $('.cards').slick('slickPrev');
         });
@@ -187,7 +188,7 @@ h1 {
     }
 }
 
-// slider slyling
+// slider & active slide slyling
 .slick-list {
     padding-bottom: 24px !important;
 
