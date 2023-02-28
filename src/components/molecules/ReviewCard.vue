@@ -73,13 +73,13 @@ p {
         top: 29px;
         left: 34.5px;
 
-        @media only screen and (max-width: 768px) {
-            top: 32px
-        }
-
         @media only screen and (max-width: 1024px) {
             top: 130px
         }
+
+@media only screen and (max-width: 768px) {
+    top: 32px
+}
     }
 
     .slider-card {
@@ -130,6 +130,7 @@ p {
 
         .description {
             font-size: 18px;
+            line-height: 20px;
             color: #333333;
         }
     }

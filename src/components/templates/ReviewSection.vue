@@ -76,20 +76,17 @@ export default {
 </script>
 
 <style lang="scss">
-@import url('//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css');
-@import url('//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css');
-
 h1 {
     margin: 0 auto 48px 176px;
     font-weight: 700;
     max-width: 416px;
 
-    @media only screen and (max-width: 768px) {
-        margin: 0 16px 32px 16px;
-    }
-
     @media only screen and (max-width: 1024px) {
         margin: 0 32px 48px 32px;
+    }
+
+    @media only screen and (max-width: 768px) {
+        margin: 0 16px 32px 16px;
     }
 }
 
@@ -112,16 +109,16 @@ h1 {
         background: #F57F31;
         height: 308px;
 
-        @media only screen and (max-width: 768px) {
-            width: 90%;
-            margin: 0 16px;
-            height: 400px
-        }
-
         @media only screen and (max-width: 1024px) {
             width: 90%;
             margin: 0 32px;
             height: 308px
+        }
+
+        @media only screen and (max-width: 768px) {
+            width: 90%;
+            margin: 0 16px;
+            height: 400px
         }
     }
 
@@ -142,13 +139,13 @@ h1 {
             margin-right: 32px;
             height: 320px;
 
-            @media only screen and (max-width: 768px) {
-                min-width: 250px;
+            @media only screen and (max-width: 1024px) {
+                min-width: 350px;
                 height: 400px;
             }
 
-            @media only screen and (max-width: 1024px) {
-                min-width: 350px;
+            @media only screen and (max-width: 768px) {
+                min-width: 250px;
                 height: 400px;
             }
 
@@ -156,14 +153,13 @@ h1 {
                 height: 176px;
                 margin-right: 32px;
 
-                @media only screen and (max-width: 768px) {
-                    height: 250px;
-
+                @media only screen and (max-width: 1024px) {
+                    height: 150px;
                     margin-right: 16px;
                 }
 
-                @media only screen and (max-width: 1024px) {
-                    height: 150px;
+                @media only screen and (max-width: 768px) {
+                    height: 250px;
                     margin-right: 16px;
                 }
             }
@@ -198,11 +194,11 @@ h1 {
 
     .slick-current {
         .slider-card {
-            border: 4px solid #F5B431;
+            border: 4px solid #F5B431 !important;
         }
 
         .profile-img-border svg>path {
-            fill: #F5B431
+            fill: #F5B431 !important
         }
     }
 }
